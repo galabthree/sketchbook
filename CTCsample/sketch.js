@@ -2,7 +2,7 @@ let x = 0;
 let y = 0;
 
 function setup() {
-  createCanvas(720, 720);
+  createCanvas(windowWidth, windowHeight);
   noFill();
   frameRate(1);
 }
